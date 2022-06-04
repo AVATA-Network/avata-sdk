@@ -20,7 +20,7 @@ export enum Rounding {
   ROUND_UP
 }
 
-export const INIT_CODE_HASH = '9e29d2dd33c19ebaee1d19e757d366fc6e57665322d7a389d300924dd9ebb39d'
+export const INIT_CODE_HASH = '0x9e29d2dd33c19ebaee1d19e757d366fc6e57665322d7a389d300924dd9ebb39d'
 
 export const MINIMUM_LIQUIDITY = JSBI.BigInt(1000)
 
@@ -43,7 +43,7 @@ export enum SolidityType {
 export const FACTORY_ADDRESS: { [chainId in ChainId]: string } = {
   [ChainId.RINKEBY]: '0x0000000000000000000000000000000000000000',
   [ChainId.FUJI]: '0xA864D122a76f9Eb86BC6a34eC92D1c3010B4aaE3',
-  [ChainId.AVALANCHE]: '0x0000000000000000000000000000000000000000'
+  [ChainId.AVALANCHE]: '0x557Ade9f0c89d07C396B19C4efac102E4008736e'
 }
 
 
